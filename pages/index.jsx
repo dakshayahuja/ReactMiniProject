@@ -9,7 +9,7 @@ import Image from "next/image";
 import developer from "../public/developer.png";
 import code from "../public/code.png";
 import design from "../public/design.png";
-import consulting from "../public/consulting.png";
+import software from "../public/software.png";
 import web1 from "../public/web1.png";
 import web2 from "../public/web2.png";
 import web3 from "../public/web3.png";
@@ -32,16 +32,16 @@ export default function Home() {
         <section className="min-h-screen">
           <nav className="py-9 mb12 flex justify-between dark:text-white">
             <BsFillMoonStarsFill
-                  className=" cursor-pointer text-2xl"
-                  onClick={() => setDarkMode(!darkMode)}
-                />
-                <a
-                  className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
-                  href="https://drive.google.com/file/d/16HYZLhuZGo7i0zRfTt_exMoyVX0YwgZS/view?usp=sharing"
-                  target="_blank"
-                >
-                  Resume
-                </a>
+              className=" cursor-pointer text-2xl"
+              onClick={() => setDarkMode(!darkMode)}
+            />
+            <a
+              className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
+              href="https://drive.google.com/file/d/16HYZLhuZGo7i0zRfTt_exMoyVX0YwgZS/view?usp=sharing"
+              target="_blank"
+            >
+              Resume
+            </a>
           </nav>
 
           <div className="text-center py-10">
@@ -52,7 +52,8 @@ export default function Home() {
               Front End Developer
             </h3>
             <p className="text-md py-5 leading-8 text-gray-700 dark:text-gray-200 md:text-xl max-w-xl mx-auto">
-            Software developer eager to tackle web development/design challenges to achieve lasting impacts on user experience.
+              Software developer eager to tackle web development/design
+              challenges to achieve lasting impacts on user experience.
             </p>
           </div>
 
@@ -87,94 +88,57 @@ export default function Home() {
 
         <section>
           <div>
-            <h3 className="text-3xl py-1 dark:text-white">My Skills</h3>
-            <p className="text-md py-2 leading-8 text-gray-700 dark:text-gray-200">
-              Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
-              <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
-              for both business and consumer use.
-            </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I offer from a wide range of services, including brand design,
-              programming and teaching.
+            <h3 className="text-4xl py-1 dark:text-white">My Skills</h3>
+            <p className="text-md py-2 leading-8 text-gray-700 dark:text-gray-200 md:text-lg">
+              Completed a professional training of full stack development with
+              hands-on projects which included the technologies like html, css,
+              javascript, bootstrap, react, networking, database management and
+              cloud computing.
             </p>
           </div>
 
           <div className="lg:flex gap-10">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-slate-100 flex-1">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image
                 src={design}
                 width={100}
                 height={100}
                 className="mx-auto"
               />
-              <h3 className="text-lg font-medium pt-8 pb-2">
-                Beautiful Designs
-              </h3>
-              <p className="py-2">
-                Creating elegant designs suited for your needs following core
-                design theory.
-              </p>
-              <h4 className="py-4 text-teal-600">Design tools I use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
+              <h3 className="text-xl font-medium pt-8 pb-4">Web Development</h3>
+              <p className="text-gray-800 py-1">HTML + CSS</p>
+              <p className="text-gray-800 py-1">JavaScript</p>
+              <p className="text-gray-800 py-1">React.JS</p>
+              <p className="text-gray-800 py-1">Bootstrap, Tailwind</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-slate-100 flex-1">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={code} width={100} height={100} className="mx-auto" />
-              <h3 className="text-lg font-medium pt-8 pb-2">
-                Code your dream project
-              </h3>
-              <p className="py-2">
-                Do you have an idea for your next great website? Let's make it a
-                reality.
-              </p>
-              <h4 className="py-4 text-teal-600">Design tools I use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
+              <h3 className="text-xl font-medium pt-8 pb-4">Core</h3>
+              <p className="text-gray-800 py-1">C++</p>
+              <p className="text-gray-800 py-1">Python</p>
+              <p className="text-gray-800 py-1">OOPS with Java</p>
+              <p className="text-gray-800 py-1">DBMS(mySQL, MongoDB)</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-slate-100 flex-1">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image
-                src={consulting}
+                src={software}
                 width={100}
                 height={100}
                 className="mx-auto"
               />
-              <h3 className="text-lg font-medium pt-8 pb-2">Consulting</h3>
-              <p className="py-2">
-                Are you interested in feedback for your current project? I can
-                give you tips and tricks to level it up.
-              </p>
-              <h4 className="py-4 text-teal-600">Design tools I use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
+              <h3 className="text-xl font-medium pt-8 pb-4">Other</h3>
+              <p className="text-gray-800 py-1">Networking</p>
+              <p className="text-gray-800 py-1">Microsoft Office</p>
+              <p className="text-gray-800 py-1">Operating Systems</p>
+              <p className="text-gray-800 py-1">Cloud Computing(AWS,GCP)</p>
             </div>
           </div>
         </section>
 
         <section>
-          <div>
-            <h3 className="text-3xl py-1 dark:text-white">Portfolio</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
-              <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
-              for both business and consumer use.
-            </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I offer from a wide range of services, including brand design,
-              programming and teaching.
-            </p>
-          </div>
-
-          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <div className="basis-1/3 flex-1">
+          <h3 className="text-4xl pt-10 dark:text-white">My Portfolio</h3>
+          <div className="flex flex-col gap-10 py-5 lg:flex-row lg:flex-wrap">
+            <div className="basis-1/3 flex-1 border-2 border-gray-100 shadow-lg dark:border-0">
               <a href="http://fleecebag.netlify.app" target="_blank">
                 <Image
                   src={web1}
@@ -185,7 +149,7 @@ export default function Home() {
                 />
               </a>
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className="basis-1/3 flex-1 border-2 border-gray-100 shadow-lg dark:border-0">
               <a href="http://googlestoreclone.netlify.app" target="_blank">
                 <Image
                   src={web2}
@@ -196,8 +160,11 @@ export default function Home() {
                 />
               </a>
             </div>
-            <div className="basis-1/3 flex-1">
-              <a href="http://aplusautomotive.netlify.app" target="_blank">
+            <div className="basis-1/3 flex-1 border-2 border-gray-100 shadow-lg dark:border-0">
+              <a
+                href="https://aplusautomotive.netlify.app"
+                target="_blank"
+              >
                 <Image
                   src={web3}
                   className="rounded-lg object-cover"
@@ -207,7 +174,7 @@ export default function Home() {
                 />
               </a>
             </div>
-            <div className="basis-1/3 flex-1">
+            <div className="basis-1/3 flex-1 border-2 border-gray-100 shadow-lg dark:border-0">
               <a
                 href="https://github.com/dakshayahuja/Bullseye"
                 target="_blank"
