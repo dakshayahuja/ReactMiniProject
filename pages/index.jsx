@@ -51,9 +51,8 @@ export default function Home() {
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
               Front End Developer
             </h3>
-            <p className="text-md py-5 leading-8 text-gray-700 dark:text-gray-200 md:text-xl max-w-lg mx-auto">
-              Freelancer providing services for programming and design content
-              need. Join me down below and let's get cracking!
+            <p className="text-md py-5 leading-8 text-gray-700 dark:text-gray-200 md:text-xl max-w-xl mx-auto">
+            Software developer eager to tackle web development/design challenges to achieve lasting impacts on user experience.
             </p>
           </div>
 
@@ -88,7 +87,7 @@ export default function Home() {
 
         <section>
           <div>
-            <h3 className="text-3xl py-1 dark:text-white">Services I offer</h3>
+            <h3 className="text-3xl py-1 dark:text-white">My Skills</h3>
             <p className="text-md py-2 leading-8 text-gray-700 dark:text-gray-200">
               Since the beginning of my journey as a freelance designer and
               developer, I've done remote work for
@@ -104,7 +103,7 @@ export default function Home() {
           </div>
 
           <div className="lg:flex gap-10">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-slate-100 flex-1">
               <Image
                 src={design}
                 width={100}
@@ -123,7 +122,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Illustrator</p>
               <p className="text-gray-800 py-1">Figma</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-slate-100 flex-1">
               <Image src={code} width={100} height={100} className="mx-auto" />
               <h3 className="text-lg font-medium pt-8 pb-2">
                 Code your dream project
@@ -137,7 +136,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Illustrator</p>
               <p className="text-gray-800 py-1">Figma</p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-slate-100 flex-1">
               <Image
                 src={consulting}
                 width={100}
