@@ -138,50 +138,50 @@ export default function Home() {
         <section>
           <h3 className="text-4xl pt-10 dark:text-white">My Portfolio</h3>
           <div className="flex flex-col gap-10 py-5 lg:flex-row lg:flex-wrap">
-            <div className="basis-1/3 flex-1 border-2 border-gray-100 shadow-lg dark:border-0">
+            <div className="basis-1/3 flex-1 rounded-lg border-2 border-gray-100 shadow-lg dark:border-0">
               <a href="http://fleecebag.netlify.app" target="_blank">
                 <Image
                   src={web1}
-                  className="rounded-lg object-cover"
+                  className="object-cover rounded-lg"
                   width={"100%"}
                   height={"100%"}
                   layout="responsive"
                 />
               </a>
             </div>
-            <div className="basis-1/3 flex-1 border-2 border-gray-100 shadow-lg dark:border-0">
+            <div className="basis-1/3 flex-1 rounded-lg border-2 border-gray-100 shadow-lg dark:border-0">
               <a href="http://googlestoreclone.netlify.app" target="_blank">
                 <Image
                   src={web2}
-                  className="rounded-lg object-cover"
+                  className="object-cover rounded-lg"
                   width={"100%"}
                   height={"100%"}
                   layout="responsive"
                 />
               </a>
             </div>
-            <div className="basis-1/3 flex-1 border-2 border-gray-100 shadow-lg dark:border-0">
+            <div className="basis-1/3 flex-1 rounded-lg border-2 border-gray-100 shadow-lg dark:border-0">
               <a
                 href="https://aplusautomotive.netlify.app"
                 target="_blank"
               >
                 <Image
                   src={web3}
-                  className="rounded-lg object-cover"
+                  className="object-cover rounded-lg"
                   width={"100%"}
                   height={"100%"}
                   layout="responsive"
                 />
               </a>
             </div>
-            <div className="basis-1/3 flex-1 border-2 border-gray-100 shadow-lg dark:border-0">
+            <div className="basis-1/3 flex-1 rounded-lg border-2 border-gray-100 shadow-lg dark:border-0">
               <a
                 href="https://github.com/dakshayahuja/Bullseye"
                 target="_blank"
               >
                 <Image
                   src={web4}
-                  className="rounded-lg object-cover"
+                  className="object-cover rounded-lg"
                   width={"100%"}
                   height={"100%"}
                   layout="responsive"
