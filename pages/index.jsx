@@ -43,7 +43,7 @@ export default function Home() {
             <h3 className="text-2xl py-2">Front End Developer</h3>
             <p className="text-md py-5 leading-8 text-gray-700">
               Freelancer providing services for programming and design content
-              need. Join me down below and let's get cracking
+              need. Join me down below and let's get cracking!
             </p>
           </div>
 
@@ -69,7 +69,15 @@ export default function Home() {
               and collaborated with talanted people to create digital products
               for both business and consumer use.
             </p>
+			<p className="text-md py-2 leading-8 text-gray-800">
+              I offer from a wide range of services, including brand design,
+              programming and teaching.
+            </p>
           </div>
+
+		  <div>
+			<div></div>
+		  </div>
         </section>
       </main>
     </div>
