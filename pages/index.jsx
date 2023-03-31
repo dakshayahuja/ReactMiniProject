@@ -37,7 +37,7 @@ export default function Home() {
             />
             <a
               className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
-              href="https://drive.google.com/file/d/1v9B1RC0y3aLT3FMl22fXpP0fcezR7vsA/view?usp=share_link"
+              href="https://drive.google.com/file/d/1i5YITt4MGzUE7478lUTLZFYqsC0i7luS/view?usp=sharing"
               target="_blank"
             >
               Resume
